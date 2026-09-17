@@ -1,0 +1,40 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic:
+        - link "conduit" [ref=e4] [cursor=pointer]:
+          - /url: /
+        - list [ref=e5]:
+          - listitem [ref=e6]:
+            - link "Home" [ref=e7] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e8]:
+            - link "Sign in" [ref=e9] [cursor=pointer]:
+              - /url: /user/login
+          - listitem [ref=e10]:
+            - link "Sign up" [ref=e11] [cursor=pointer]:
+              - /url: /user/register
+    - generic [ref=e15]:
+      - heading "Sign up" [level=1] [ref=e16]
+      - paragraph [ref=e17]:
+        - link "Have an account?" [ref=e18] [cursor=pointer]:
+          - /url: /user/login
+      - list
+      - group [ref=e20]:
+        - group [ref=e21]:
+          - textbox "Username" [ref=e22]
+        - group [ref=e23]:
+          - textbox "Email" [ref=e24]
+        - group [ref=e25]:
+          - textbox "Password" [ref=e26]
+        - button "Sign up" [ref=e27] [cursor=pointer]
+    - contentinfo [ref=e28]:
+      - generic [ref=e29]:
+        - link "conduit" [ref=e30] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e31]:
+          - text: © 2021. An interactive learning project from
+          - link "Thinkster" [ref=e32] [cursor=pointer]:
+            - /url: https://thinkster.io
+          - text: . Code licensed under MIT.
+  - alert [ref=e33]
