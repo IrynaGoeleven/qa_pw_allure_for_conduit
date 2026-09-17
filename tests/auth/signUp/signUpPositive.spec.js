@@ -1,4 +1,4 @@
-import { test } from '../../_fixtures/fixtures';
+import { test } from '../../_fixtures/fixturesGeneric';
 
 test('Successful `Sign up` flow test', async ({
   user,

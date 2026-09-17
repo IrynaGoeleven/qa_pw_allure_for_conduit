@@ -1,4 +1,4 @@
-import { test } from '../../_fixtures/fixtures';
+import { test } from '../../_fixtures/fixturesGeneric';
 import { signUpUser } from '../../../src/ui/actions/auth/signUpUser';
 import { TITLE_CANNOT_BE_EMPTY } from '../../../src/ui/constants/articleErrorMessages';
 

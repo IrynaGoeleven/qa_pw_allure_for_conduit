@@ -1,4 +1,4 @@
-import { test } from '../../_fixtures/fixtures';
+import { test } from '../../_fixtures/fixturesGeneric';
 import { ViewArticlePage } from '../../../src/ui/pages/article/ViewArticlePage';
 import { createArticle } from '../../../src/ui/actions/articles/createArticle';
 import { signUpUser } from '../../../src/ui/actions/auth/signUpUser';

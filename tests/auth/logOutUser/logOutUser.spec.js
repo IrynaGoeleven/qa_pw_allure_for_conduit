@@ -1,5 +1,5 @@
 import { expect } from '@playwright/test';
-import { test } from '../../_fixtures/fixtures';
+import { test } from '../../_fixtures/fixturesGeneric';
 import { signUpUser } from '../../../src/ui/actions/auth/signUpUser';
 import { SettingsPage } from '../../../src/ui/pages/SettingsPage';
 
